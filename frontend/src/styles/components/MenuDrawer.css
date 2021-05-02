@@ -1,0 +1,16 @@
+.menu-drawer {
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  z-index: 2;
+  background: white;
+  transition: all 1s;
+  left: -300px;
+}
+.slide-in {
+  left: 0;
+}
+.slide-out {
+  left: -300px;
+  display: none;
+}

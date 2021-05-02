@@ -1,0 +1,132 @@
+.b-featured-img {
+  height: 220px;
+}
+.b-featured-img img {
+  min-width: 100%;
+  height: 100%;
+}
+.b-tab-slider {
+  border-top: 1px solid rgb(212, 212, 212);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.b-tab {
+  width: 33%;
+  height: 50px;
+}
+.b-tab h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.tab-active {
+  border-bottom: 4px solid black;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.tab-active h1 {
+  color: rgb(37, 191, 251);
+}
+.ov-item {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.ov-i-icon {
+  width: 10%;
+  margin-right: 5px;
+}
+.ov-i-text {
+  width: 90%;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.ov-i-text h1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.create-review-h {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 20px 15px;
+}
+.create-review-h h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.cr-form {
+  width: 100%;
+}
+.cr-form form {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 0 15px;
+}
+.cr-form form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.cr-submit {
+  width: 100%;
+  justify-content: flex-start;
+}
+.cr-submit button {
+  background: var(--primary-color);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.b-detail-box {
+  width: 100%;
+  height: 100px;
+  justify-content: flex-start;
+}
+.bd-logo {
+  width: 20%;
+  height: 100%;
+  margin-left: 10px;
+}
+.bd-logo img {
+  width: 75px;
+  height: 75px;
+  border-radius: 120px;
+}
+.bd-details {
+  width: 80%;
+  height: 100%;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+.bd-details h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.ov-timing {
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  /* padding: 10px 0px; */
+}
+/* .ov-timing p{
+  width: 100%;
+  padding: 7px 15px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+} */
+.ovt-row {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  padding: 10px 15px;
+}
+.ovt-row p:nth-child(1) {
+  /* padding-right: 20px; */
+  width: 15%;
+  height: 100%;
+}
+.ovt-row p:nth-child(2) {
+  width: 90%;
+  height: 100%;
+}

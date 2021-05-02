@@ -1,0 +1,81 @@
+// SCREENS 
+Home - /   DONE
+ - SearchBar - in
+ - CategoryBox - in
+ - MenuDrawer
+ - StatePopup
+ - BottomNav 
+Search - /search DONE
+ - SearchBar
+ - SearchResult - in
+saved - /saved DONE PRIVATE
+ - SavedCard
+SearchResults - /search/:term DONE
+ - SearchResult
+ - Filter
+ - Sort
+Categories - /categories DONE
+ - BackHeader
+Category - /category/:id DONE
+ - BackHeader
+BusinessDetails - /business/:id
+MemberRegister - /member/account/register DONE
+MemberLogin - /member/account/login  DONE
+BusinessWelcome - /business
+BusinessRegister - /business/account/register
+BusinessLogin - /business/account/login
+MemberAccount - /member/account PRIVATE
+MemberEditAccount - /member/account/details/update PRIVATE
+BusinessAccount - /business/account PRIVATE
+BusinessEditAccount - /business/account/details/update PRIVATE
+EmailActivation - /:type/account/verify-email
+
+
+
+// Components
+BottomNav
+Loading
+BackHeader
+SearchBar
+MenuDrawer
+
+
+
+
+
+// SCREEN CHECKS
+Home
+Search
+Saved
+SearchResults
+BusinessDetails
+Categories
+Category
+MemberAccount
+EditMemberAccount
+MemberRegister
+MemberLogin
+BusinessAccount
+EditBusinessAccount
+BusinessRegister
+BusinessLogin
+BusinessInsights
+EmailVerify
+ActivateEmail
+
+// SCREENS LEFT FOR DESIGN
+BusinessDetails
+Account
+BusinessRegister
+ActivateEmail
+
+
+// WHAT IS LEFT
+Home
+- MenuDrawer design and implementation
+- Grid and list view in listing
+- Ask for users location Component design and implementation
+
+BusinessRegister
+- Timing setup
+- Multi Category Selection

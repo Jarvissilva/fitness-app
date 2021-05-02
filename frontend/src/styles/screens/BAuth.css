@@ -1,0 +1,59 @@
+.brh-heading {
+  width: 85%;
+  height: 100%;
+  justify-content: flex-start;
+}
+.brh-heading h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.b-auth-form form {
+  width: 100%;
+  align-items: flex-start;
+  padding: 25px;
+}
+.b-auth-input {
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.b-auth-input label {
+  margin-bottom: 10px;
+}
+.b-auth-input input {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(207, 207, 207);
+}
+.b-next-btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+.b-next-btn button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.BAuth-select {
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(206, 206, 206);
+  padding-right: 10px;
+}
+.BAuth-select select {
+  width: 90%;
+  height: 100%;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: rgb(114, 114, 114);
+}

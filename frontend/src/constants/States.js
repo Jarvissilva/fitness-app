@@ -1,0 +1,1 @@
+export const states = ['Andhra Pradesh','Goa']
